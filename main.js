@@ -11,7 +11,7 @@ car2_height=90;
 
 baground_img="racing.jpg";
 car1_img="car1.png";
-car2_img="car1.png";
+car2_img="car2.jpg";
 
 
 
@@ -19,7 +19,7 @@ car1_x=10;
 car1_y=10;
 
 car2_x=10;
-car2_y=10;
+car2_y=100;
 
 function add(){
     baground_img_Tag=new Image();
@@ -59,7 +59,7 @@ var keypreesed=e.keyCode;
 console.log(keypreesed);
 
 if(keypreesed=='38')
-{ up();
+{car1_up();
 
     console.log("up");
 
@@ -69,7 +69,7 @@ if(keypreesed=='38')
 
 
 if(keypreesed=='40')
-{ down();
+{car1_down();
 
     console.log("down");
 
@@ -78,7 +78,7 @@ if(keypreesed=='40')
 
 
 if(keypreesed=='37')
-{ left();
+{ car1_left();
 
     console.log("left");
 
@@ -87,7 +87,7 @@ if(keypreesed=='37')
 
 
 if(keypreesed=='39')
-{ right();
+{ car1_right();
 
     console.log("right");
 
@@ -98,21 +98,10 @@ if(keypreesed=='39')
         }
 
 
-
-
-
-
-
-        window.addEventListener("keydown",My_key_down);
-        function My_key_down(b){
-
-var keypreesed=b.keyCode;
-console.log(keypreesed);
-
 if(keypreesed=='87')
-{ up();
+{car2_up();
 
-    console.log("up");
+    console.log("up2");
 
 
 }
@@ -120,33 +109,33 @@ if(keypreesed=='87')
 
 
 if(keypreesed=='83')
-{ down();
+{car2_down();
 
-    console.log("down");
+    console.log("down2");
 
 }
 
 
 
 if(keypreesed=='65')
-{ left();
+{ car2_left();
 
-    console.log("left");
+    console.log("left2");
 
 }
 
 
 
 if(keypreesed=='68')
-{ right();
+{car2_right();
 
-    console.log("right");
+    console.log("right2");
 
 }
 
 
 
-        }
+        
 
 
 
