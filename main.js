@@ -73,7 +73,7 @@ if(car2_x > 700)
 
 }
 
-if(keypreesed=='38')
+if(keypressed=='38')
 {car1_up();
 
     console.log("up");
@@ -157,8 +157,9 @@ function car1_up(){
     if (car1_y>=0)
     {
        car1_y=car1_y-10;
-        uploadbaground();
-        uploadrover();
+       uploadbaground();
+        uploadcar1();
+        uploadcar2();
         console.log("When up arrow is pressed, x = " +car1_x + " | y = " +car1_y);
     }
 }
@@ -169,7 +170,8 @@ function car1_down(){
     {
         car1_y=car1_y+10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2();
         console.log("When down arrow is pressed, x = " + car1_x + " | y = " +car1_y);
     }
 }
@@ -179,7 +181,8 @@ function car1_left(){
     {
         car1_x=car1_x-10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2();
         console.log("When left arrow is pressed, x = " + car1_x + " | y = " +car1_y);
     }
 }
@@ -189,7 +192,8 @@ function car1_right(){
     {
         car1_x=car1_x+10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2();
         console.log("When right arrow is pressed, x = " + car1_x + " | y = " +car1_y);
     }
 }
@@ -199,8 +203,9 @@ function car2_up(){
     if (car2_y>=0)
     {
        car2_y=car2_y-10;
-        uploadbaground();
-        uploadrover();
+       uploadbaground();
+        uploadcar1();
+        uploadcar2();
         console.log("When up arrow is pressed, x = " +car2_x + " | y = " +car2_y);
     }
 }
@@ -211,7 +216,8 @@ function car2_down(){
     {
         car2_y=car2_y+10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2();
         console.log("When down arrow is pressed, x = " + car2_x + " | y = " +car2_y);
     }
 }
@@ -221,7 +227,8 @@ function car2_left(){
     {
         car2_x=car2_x-10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2r();
         console.log("When left arrow is pressed, x = " + car2_x + " | y = " +car2_y);
     }
 }
@@ -231,7 +238,8 @@ function car2_right(){
     {
         car2_x=car2_x+10;
         uploadbaground();
-        uploadrover();
+        uploadcar1();
+        uploadcar2();
         console.log("When right arrow is pressed, x = " + car2_x + " | y = " +car2_y);
     }
 }
