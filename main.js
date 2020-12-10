@@ -55,8 +55,8 @@ function uploadbaground() {
         window.addEventListener("keydown",My_key_down);
         function My_key_down(e){
 
-var keypreesed=e.keyCode;
-console.log(keypreesed);
+var keypressed=e.keyCode;
+console.log(keypressed);
 if(car1_x > 700)
 {
     console.log("car 1 won");
@@ -83,7 +83,7 @@ if(keypressed=='38')
 
 
 
-if(keypreesed=='40')
+if(keypressed=='40')
 {car1_down();
 
     console.log("down");
@@ -92,7 +92,7 @@ if(keypreesed=='40')
 
 
 
-if(keypreesed=='37')
+if(keypressed=='37')
 { car1_left();
 
     console.log("left");
@@ -101,7 +101,7 @@ if(keypreesed=='37')
 
 
 
-if(keypreesed=='39')
+if(keypressed=='39')
 { car1_right();
 
     console.log("right");
@@ -113,7 +113,7 @@ if(keypreesed=='39')
         }
 
 
-if(keypreesed=='87')
+if(keypressed=='87')
 {car2_up();
 
     console.log("up2");
@@ -123,7 +123,7 @@ if(keypreesed=='87')
 
 
 
-if(keypreesed=='83')
+if(keypressed=='83')
 {car2_down();
 
     console.log("down2");
@@ -132,7 +132,7 @@ if(keypreesed=='83')
 
 
 
-if(keypreesed=='65')
+if(keypressed=='65')
 { car2_left();
 
     console.log("left2");
@@ -141,7 +141,7 @@ if(keypreesed=='65')
 
 
 
-if(keypreesed=='68')
+if(keypressed=='68')
 {car2_right();
 
     console.log("right2");
