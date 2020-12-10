@@ -57,18 +57,18 @@ function uploadbaground() {
 
 var keypressed=e.keyCode;
 console.log(keypressed);
-if(car1_x > 700)
+if(car1_x > 800)
 {
     console.log("car 1 won");
-    document.getElementById(game_status).innerHTML="Car1 won!!";
+    document.getElementById("game_status").innerHTML="Car1 won!!";
 
 
 }
 
-if(car2_x > 700)
+if(car2_x > 800)
 {
     console.log("car 2 won");
-    document.getElementById(game_status).innerHTML="Car2 won!!";
+    document.getElementById("game_status").innerHTML="Car2 won!!";
     
 
 }
@@ -110,7 +110,7 @@ if(keypressed=='39')
 
 
 
-        }
+        
 
 
 if(keypressed=='87')
@@ -148,7 +148,7 @@ if(keypressed=='68')
 
 }
 
-
+        }
 
     
 
@@ -228,7 +228,7 @@ function car2_left(){
         car2_x=car2_x-10;
         uploadbaground();
         uploadcar1();
-        uploadcar2r();
+        uploadcar2();
         console.log("When left arrow is pressed, x = " + car2_x + " | y = " +car2_y);
     }
 }
@@ -245,4 +245,4 @@ function car2_right(){
 }
 
 
-
+        
