@@ -57,7 +57,7 @@ function uploadbaground() {
 
 var keypressed=e.keyCode;
 console.log(keypressed);
-if(car1_x > 800)
+if(car1_x >700)
 {
     console.log("car 1 won");
     document.getElementById("game_status").innerHTML="Car1 won!!";
@@ -65,7 +65,7 @@ if(car1_x > 800)
 
 }
 
-if(car2_x > 800)
+if(car2_x >700)
 {
     console.log("car 2 won");
     document.getElementById("game_status").innerHTML="Car2 won!!";
